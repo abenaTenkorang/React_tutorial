@@ -14,9 +14,9 @@ const Item = ({
   };
   // update the edited todos to the list and update the localStorage
   const updateEdited = (currentTodo) => {
-    const editedTodoIndex = saved().findIndex((t) => t.id === currentTodo.id);
+    const editedTodo = saved().findIndex((t) => t.id === currentTodo.id);
     const newTodos = saved();
-    newTodos.splice(editedTodoIndex, 1, currentTodo);
+    newTodos.splice(editedTodo, 1, currentTodo);
     updateTodos(newTodos);
   };
 

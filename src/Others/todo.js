@@ -62,6 +62,7 @@ const TodoPage = () => {
       <div className="todo-content">
         <form onSubmit={handleSubmit}>
           <input className="input-form" type="text" value={todo.task} onChange={handleChange} placeholder="What is your todo list" required />
+          <button className="form-submit" type="submit">ADD</button>
         </form>
         {' '}
         <Todolist

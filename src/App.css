@@ -173,7 +173,7 @@ textarea:focus {
 
 input[type="checkbox"] {
   transform: scale(1.5);
-  accent-color: cornflowerblue;
+  color: cornflowerblue;
   margin: auto 0;
 }
 

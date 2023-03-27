@@ -231,10 +231,11 @@ footer {
 @media screen and (max-width: 768px) {
   .App-content {
     grid-template-columns: 1fr;
+    height: 100vh;
   }
 
   aside {
-    height: 50px;
+    height: 100%;
   }
 
   section {
@@ -244,12 +245,21 @@ footer {
   .aside-ul {
     list-style-type: none;
     display: block;
-    margin-top: 0;
+    margin: 5rem 2rem 0 0;
   }
 
   .aside-li {
     display: inline-block;
     margin-bottom: 10px;
     padding: 10px;
+  }
+
+  footer {
+    background-color: #1b1a1a;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+   /* padding-left: 30rem;*/
   }
 }

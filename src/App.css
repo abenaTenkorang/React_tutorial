@@ -183,7 +183,7 @@ input[type="checkbox"] {
 }
 
 .delete-btn {
-  background-color: coral; /* red */
+  background-color: coral;
   color: white;
   font-size: 25px;
   border: none;
@@ -260,6 +260,5 @@ footer {
     color: white;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
-   /* padding-left: 30rem;*/
   }
 }

@@ -30,7 +30,11 @@
 Todos is an application that help users to add and list tasks they need to complete or things that they want to do.
  ## Browser Display
  
-https://user-images.githubusercontent.com/109290913/226741468-12246695-7f59-40b6-aefc-dd60e95bbc77.mp4
+
+
+
+https://user-images.githubusercontent.com/109290913/228172225-169b9455-3350-4dbb-9e55-d8cedfa104ba.mp4
+
 
 
 
